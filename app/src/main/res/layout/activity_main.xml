@@ -23,20 +23,8 @@
         android:layout_centerHorizontal="true"
         android:text="@string/Iam"
         android:textColor="@android:color/background_light"
-        android:textSize="40sp" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignWithParentIfMissing="false"
-        android:layout_below="@id/textView"
-        android:layout_alignRight="@id/textView"
-        android:text="@string/poor"
-        android:textAllCaps="true"
-        android:textColor="@android:color/background_light"
         android:textSize="40sp"
-        android:textStyle="bold" />
+        android:layout_alignParentStart="false" />
 
     <ImageView
         android:id="@+id/imageView"
